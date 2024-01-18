@@ -1,15 +1,13 @@
 import React, {FunctionComponent} from 'react';
 import {SafeAreaView, Text} from 'react-native';
 import tw from 'src/lib/tailwind';
-import Home from 'src/app/home/Home';
 
-const App: FunctionComponent = () => {
+const Home: FunctionComponent = () => {
   return (
     <SafeAreaView>
-      <Text style={tw`text-black`}>Hello world</Text>
-      <Home />
+      <Text style={tw`text-black`}>Hello this is the boss</Text>
     </SafeAreaView>
   );
 };
 
-export default App;
+export default Home;
